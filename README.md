@@ -16,7 +16,7 @@ In a world that is quickly developing, there are hackers out there developing th
 
 Note: It is unfortunate that the range on the number of characters and the checkboxes are not in sync with the password generated and adjusting or checking them in will not affect the password generated. In our next version, Password Generator 2.0, we'll have those fully functional.
 
-## Screenshots
+## Screenshot
 
 ![passwordgeneratorSS](https://github.com/fongvang09/Password-Generator/blob/main/Capture.JPG)
 
