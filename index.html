@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="script.js" defer></script>
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+        </div>
+        <div class="card-body">
+          <textarea 
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generate Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+        <form id="passwordGeneratorForm" class="form-center">
+<!-- Attempted to make lines 31-49 work in the JS but failed. Leaving it uncommented to make it look cool although it does nothing as of now. -->
+          <label for="characterAmountNumber">Number of Characters</label>
+          <div class="character-amount-container">
+            <input type="range" min="8" max="128" value="8"
+            id="characterAmountRange">
+            <input class="number-input" type="number" min="8" max="128"
+            value="8" id="characterAmountNumber">  
+          </div>
+
+          <label type="includeLowerCase">Include Lowercase</label>
+          <input type="checkbox" id="includeLowerCase">
+
+          <label type="includeUpperCase">Include Uppercase</label>
+          <input type="checkbox" id="includeUpperCase">
+
+          <label type="includeNumbers">Include Numbers</label>
+          <input type="checkbox" id="includeNumbers">
+
+          <label type="includeSpecialCharacters">Include Special Characters</label>
+          <input type="checkbox" id="includeSpecialCharacters">
+
+        </form>
+
+          <button id="generate" class="btn">Generate Password</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
