@@ -18,7 +18,7 @@ Note: It is unfortunate that the range on the number of characters and the check
 
 ## Screenshots
 
-https://github.com/fongvang09/Password-Generator/blob/main/Capture.JPG
+![passwordgeneratorSS](https://github.com/fongvang09/Password-Generator/blob/main/Capture.JPG)
 
 ## Link
 
