@@ -1,4 +1,4 @@
-# 03 Javascript: Password Generator
+# 03 Javascript: Password Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This project is about creating a password generator that uses lowercase, uppercase, numeric, and/or special characters. The password amount should be anywhere between 8 characters to 128 characters long.
 
